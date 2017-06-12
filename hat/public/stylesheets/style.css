@@ -1,8 +1,35 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #416C85;
+  border: 0;
+  margin: 0;
 }
 
-a {
-  color: #00B7FF;
+header{
+  width: 100%;
+  border: 2px;
+  padding: 2em;
+}
+
+.blue{
+  background-color: #AFD1EA;
+  color:  #416C85;
+}
+
+.purple{
+  background-color: #ABA0CD;
+  color: #27233E;
+  /*color: #416C85;*/
+}
+
+.green{
+  background-color: #D5E3D4;
+  /*color: #416C85;*/
+  color: #27233E;
+}
+
+.options{
+  padding: 3em;
+  margin: 1em 3em;
+  border-radius: 1em;
 }
