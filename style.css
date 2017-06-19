@@ -1,0 +1,46 @@
+body {
+  font-family: 'Source Sans Pro', Arial sans-serif;
+  color: #27233E;
+  background-color: #416C85;
+  border: 0;
+  margin: 0;
+}
+
+header{
+  width: 100%;
+  border: 2px;
+  padding: 2em;
+}
+
+h1, h2{
+    font-family: 'Comfortaa', cursive;
+}
+
+input{
+  background-color: #AFD1EA;
+  color:  #416C85;
+  border: 2px inset #ABA0CD;
+  border-radius: 5px;
+  min-width: 4em;
+  min-height: 2em;
+  margin: .5em;
+}
+
+.blue{
+  background-color: #AFD1EA;
+  color:  #416C85;
+}
+
+.purple{
+  background-color: #ABA0CD;
+}
+
+.green{
+  background-color: #D5E3D4;
+}
+
+.options{
+  padding: 3em;
+  margin: 1em 3em;
+  border-radius: 1em;
+}

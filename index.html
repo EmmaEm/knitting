@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hat Pattern Generator</title>
+    <link rel='stylesheet' href='/style.css' />
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Source+Sans+Pro" rel="stylesheet">
+  </head>
+  <body>
+    <header class="blue">
+      <h1>Pattern Generator</h1>
+    </header>
+    <div class="purple options">
+      <h2>The Important Bits</h2>
+      <p>Size:</p>
+      <!-- All min and max values in inputs in this section are place holders. Update accordingly once actual numbers are established -->
+      <ul>
+        <li>Hat circumference <input type="number" name="circumference" min="5" max="30"></li>
+      </ul>
+      <p>Gauge:</p>
+    <ul>
+        <li>Rows per 4 inches <input type="number" name="rows" min="5" max="30"></li>
+        <li>Stitches per 4 inches<input type="number" name="stitches" min="5" max="30"></li>
+      </ul>
+    </div>
+    <div class="green options">
+      <h2>Brim</h2>
+      <p>Choose a brim:</p>
+      <div>
+        <input type="radio" name="brim" value="fold-ribbed">Fold over ribbed</br>
+        <input type="radio" name="brim" value="roll-stockinette">Roll up stockinette</br>
+        <input type="radio" name="brim" value="braid-edge">Braided edge</br>
+      </div>
+    </div>
+    <div class="green options">
+      <h2>Body</h2>
+      <p>Choose a body style:</p>
+      <div>
+        <input type="radio" name="body" value="stockinette">Stockinette</br>
+        <input type="radio" name="body" value="ribbed">Ribbed</br>
+        <input type="radio" name="body" value="cabled">Cabled</br>
+        <input type="radio" name="body" value="moss">Moss-stitch</br>
+      </div>
+    </div>
+  </body>
+</html>
